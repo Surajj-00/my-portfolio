@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -31,3 +28,12 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Define the custom font */
+/* @font-face {
+  font-family: 'Space_Grotesk';
+  src: url('/assets/fonts/Space-Grotesk-700.woff2') format('woff2'),
+    url('/assets/fonts/Space-Grotesk-700.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+} */

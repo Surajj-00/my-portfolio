@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "keyb":'rgb(13, 13, 15) 0px -0.5px 2px 0px inset, rgb(13, 13, 15) -0.5px 0px 2px 0px inset' ,
+
+        "keybc": '0px 0px 0px 0px var(--blue-500); transform: none' ,
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
